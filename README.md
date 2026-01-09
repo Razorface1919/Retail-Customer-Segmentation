@@ -12,7 +12,7 @@ Analyzed a dataset of **500,000+ transactions** from a UK-based online retailer.
 
 ## 🔧 Techniques Used
 * **Data Cleaning:** Handled missing values, removed duplicate entries, and filtered cancelled transactions.
-* **Feature Engineering:** Created `TotalSales` and `RFM` metrics (Recency, Frequency, Monetary).
+* **Feature Engineering:** Created TotalSales and RFM metrics (Recency, Frequency, Monetary).
 * **Customer Segmentation:** Segmented users into "Champions", "Loyal", and "At Risk" groups using Quantile Scoring.
 * **Market Basket Analysis:** Used the **Apriori Algorithm** to find products frequently bought together.
 
@@ -26,7 +26,7 @@ The analysis revealed that the customer base follows the Pareto Principle (80/20
 
 <img width="1278" height="683" alt="image" src="https://github.com/user-attachments/assets/0567f490-6630-485d-b339-1258f130bff4" />
 <img width="1068" height="678" alt="image" src="https://github.com/user-attachments/assets/b75c819d-c6e1-44b4-a86c-7a59429f0f25" />
-`![Customer Segments]`
+
 
 ### 2. Market Basket Analysis
 We identified strong product associations (Lift > 10) to drive cross-selling strategies.
@@ -34,7 +34,6 @@ We identified strong product associations (Lift > 10) to drive cross-selling str
 * **Action:** Implement "Bundle & Save" offers on product pages.
 
 <img width="1146" height="682" alt="image" src="https://github.com/user-attachments/assets/70630b56-6b3f-46fa-99cd-ea1f2ae0eb5d" />
-`![Market Basket Analysis]`
 
 ## 🚀 How to Run the Code
 1. Clone the repo:
